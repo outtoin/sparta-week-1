@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>사과농</title>
+    <style type="text/css">
+        .bg-gray {
+            /*배경색이 회색*/
+            background-color: gray;
+        }
+        .bg-some-image {
+            /*뭔가 이미지를 넣어보세요*/
+            background-image: url("https://post-phinf.pstatic.net/MjAxODAzMDVfMTEy/MDAxNTIwMjIyODUzNzI4.m13JYsDImfZxkmjJxMGmYe8lKhYxSExyDqdH66C-_i0g.79FPvMvtpW0I0CaqBRn3D7pNyECV2RLxoYEJ3-uiROsg.JPEG/GettyImages-jv11000346.jpg?type=w800_q75");
+            height: 500px;
+        }
+        .bg-no-repeat {
+            background-repeat: no-repeat;
+        }
+        .bg-size {
+            /*이미지의 크기를 조절해주세요*/
+            /*width 300px*/
+            /*height 300px*/
+            background-size: 300px 300px;
+        }
+        .small {
+            /*div의 크기를 조절해주세요*/
+            /*width 100px*/
+            /*height 30px*/
+            width: 500px;
+            height: 300px;
+        }
+        .big-font {
+            /*폰트 사이즈를 크게 해 주세요*/
+            /*30px 이상*/
+            font-size: 30px;
+        }
+        .blue {
+            /*폰트 색을 바꿔주세요*/
+            color: blue;
+        }
+        .font-white {
+            color: white;
+        }
+        .bold {
+            /*굵은 글씨로 해주세요*/
+            font-weight: bold;
+        }
+        .san-serif {
+            /*폰트를 바꿔주세요.*/
+            font-family: monospace;
+        }
+        .flex {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+        }
+        .bg-red {
+            background-color: red;
+        }
+        .mini {
+            width: 100%;
+            height: 50px;
+            border: 1px solid blueack;
+        }
+        .micro {
+            width: 100%;
+            height: 10px;
+            border: 1px solid white;
+        }
+        .flex-center {
+            justify-content: center;
+        }
+        .big {
+            width: 70%;
+            height: 300px;
+        }
+        .narrow {
+            width: 20%;
+            height: 100%;
+            border: 1px solid white;
+        }
+        .flex-hor {
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: center;
+        }
+        .margin-t {
+            margin-top: 100px;
+        }
+        .margin-b {
+            margin-bottom: 120px;
+        }
+        .padding-t {
+            padding-top: 20px;
+        }
+        .all-padding {
+            padding: 20px 0 20px 0;
+        }
+        .bg-gray > div {
+            color :blue;
+        }
+        .bg-red .narrow {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-gray small font-white big-font flex margin-b">
+        <div class="bg-red mini flex flex-center">
+            <div class="bg-gray micro">BBB</div>
+            <div class="bg-gray micro">BBB</div>
+        </div>
+        <div class="bg-red mini">AAAAAAAA</div>
+        <div class="bg-red mini">AAAAAAAA</div>
+        <div class="bg-red mini">AAAAAAAA</div>
+    </div>
+    <div class="bg-gray big font-white big-font flex margin-t all-padding">
+        <div class="narrow bg-red">
+            <div class="narrow bg-red">AAAAAAAA</div>
+        </div>
+        <div class="narrow bg-red">AAAAAAAA</div>
+        <div class="narrow bg-red">AAAAAAAA</div>
+    </div>
+    <div class="bg-red big font-white big-font flex margin-t all-padding">
+        <div class="narrow bg-red">AAAAAAAA</div>
+        <div class="narrow bg-red">AAAAAAAA</div>
+        <div class="narrow bg-red">AAAAAAAA</div>
+        <div>
+            <div class="narrow">AAAAAAAA</div>
+        </div>
+    </div>
+</body>
+</html>
